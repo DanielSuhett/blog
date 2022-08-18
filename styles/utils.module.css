@@ -6,6 +6,16 @@
   margin: 1rem 0;
 }
 
+.divicons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  margin-right: 24px;
+}
+
 .headingXl {
   font-size: 2rem;
   line-height: 1.3;
