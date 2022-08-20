@@ -5,6 +5,8 @@ import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
 import Image from "next/image";
+import React from "react";
+import TagManager from "react-gtm-module";
 
 const Icon = ({ src, link }) => (
   <a className={utilStyles.icons} href={link} target="_blank">
@@ -13,6 +15,15 @@ const Icon = ({ src, link }) => (
 );
 
 export default function Home({ allPostsData }) {
+  React.useEffect(() => {
+    if (typeof window !== "undefined") {
+      console.log("init GTM");
+      TagManager.initialize({ gtmId: "G-5SNGGWFQJW" });
+    } else {
+      console.log("GTM server side - ignorning");
+    }
+  }, []);
+
   return (
     <Layout home>
       <Head></Head>
@@ -20,7 +31,10 @@ export default function Home({ allPostsData }) {
       <div className={utilStyles.divicons}>
         <Icon src="/images/gmail.png" link="mailto:danielsuhett99@gmail.com" />
         <Icon src="/images/github.png" link="https://github.com/DanielSuhett" />
-        <Icon src="/images/linkedin.png" link="https://linkedin.com/in/daniel-suhett" />
+        <Icon
+          src="/images/linkedin.png"
+          link="https://linkedin.com/in/daniel-suhett"
+        />
       </div>
 
       <section className={utilStyles.headingMd}>
