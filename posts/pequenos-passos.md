@@ -14,9 +14,9 @@ Quer dizer então que não consigo mais aprender? Por muito tempo pensei que nã
 
 E se eu usasse a agenda dessa mesma maneira mas para organizar meus estudos? Percebi quanto tempo eu perdia jogando, vendo coisas aleatórias no telefone e decidi me empenhar em anotar todos os meus 5 dias da semana com micro imersões como
 
-1. Ler um livro técnico por 1 hora (18:00 a 19:00)
-2. Assistir um video do Alura (20:00 a 20:15)
-3. Escrever resumos do que aprendi (20:15 a 20:30)
+1. Ler um livro técnico por uma hora (18:00 a 19:00)
+2. Assistir um video do Alura por quinze minutos (20:00 a 20:15)
+3. Escrever resumos do que aprendi por quinze minutos (20:15 a 20:30)
 
 Repare como eu não me prendi a quantos módulos ou capitulos eu preciso aprender, se aquilo que aprendi foi produtivo ou não, eu separo em pequenos passos por todos os dias da semana os tópicos que quero melhorar a longo prazo.
 
