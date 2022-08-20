@@ -11,6 +11,7 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
+        
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
@@ -21,6 +22,15 @@ export default function Layout({ children, home }) {
         <meta property="og:image" content="https://avatars.githubusercontent.com/u/25205766?v=4"/>
         <meta name="twitter:card" content="summary_large_image" />
         <title>Anotações do Daniel</title>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5SNGGWFQJW"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'G-5SNGGWFQJW');
+        </script>
       </Head>
       <header className={styles.header}>
         {home ? (
