@@ -21,4 +21,4 @@ Como são componentes de montagem no servidor, eles não podem usar internamente
 
 ### Sobre o componente **quântico**
 
-Um componente ele pode estar em uma zona cinzenta onde ele não é totalmente construído no servidor nem totalmente construído no cliente, ele começa sendo renderizado com dados para uma rota onde não haverá mudança no estado**(servidor)** mas pode ser renderizado também em outra rota onde um componente **cliente** realiza mutações.
+Um componente ele pode estar em uma zona cinzenta onde ele não é totalmente construído no servidor nem totalmente construído no cliente, ele começa sendo renderizado com dados para uma rota onde não haverá mudança no estado **(servidor)** mas pode ser renderizado também em outra rota onde um componente **cliente** realiza mutações.
