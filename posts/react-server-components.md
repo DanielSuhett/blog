@@ -1,5 +1,5 @@
 ---
-title: "Sobre React Server Components"
+title: "Sobre react server components"
 date: "2022-08-22"
 ---
 

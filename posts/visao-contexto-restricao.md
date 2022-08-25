@@ -1,5 +1,5 @@
 ---
-title: "Visão, contexto e restrição"
+title: "Sobre visão, contexto e restrição"
 date: "2022-08-16"
 ---
 
